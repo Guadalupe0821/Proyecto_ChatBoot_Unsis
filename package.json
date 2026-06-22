@@ -1,5 +1,15 @@
 {
+  "name": "proyecto_chatboot_unsis",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "vite"
+  },
   "devDependencies": {
     "vite": "^8.0.16"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }

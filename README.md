@@ -1,89 +1,39 @@
 # 🤖 Proyecto_ChatBoot_Unsis
+**Materia: Tecnologgías Web**
+**Profesor: M.T.I.E. Irving Ulises Hernández Miguel**
+**Ciclo: 2026**
 
-Proyecto desarrollado para la materia **Tecnologías Web**.
+Proyecto de desarrollo Full Stack implementado para la materia de **Tecnologías Web** en la **Universidad de la Sierra Sur**.
 
-## 📖 Descripción
 
-El Asistente Inteligente de Admisión UNSIS es una aplicación web que ayuda a los aspirantes durante el proceso de solicitud de ficha de ingreso a la Universidad de la Sierra Sur.
+## 📺 Video de Demostración y Explicación
 
-El chatbot proporciona información sobre:
 
-- 📄 Solicitud de ficha
-- 📋 Requisitos
-- 📁 Documentación necesaria
-- 🎓 Oferta educativa
-- ❓ Preguntas frecuentes
 
----
+## 📖 Descripción del Proyecto
+El **Asistente Inteligente de Admisión UNSIS** es una aplicación web integral diseñada para guiar, orientar y optimizar la experiencia de los aspirantes durante el proceso de solicitud de fichas de ingreso a la institución. 
 
-## 🚀 Tecnologías utilizadas
+A través de una interfaz interactiva potenciada por Inteligencia Artificial (mediante la plataforma de automatización de agentes conversacionales **Botpress**), el sistema resuelve dudas frecuentes en tiempo real sobre:
+* 📄 **Proceso de Admisión:** Pasos cronológicos para la obtención de la ficha.
+* 📋 **Requisitos Académicos:** Criterios mínimos de elegibilidad y perfiles de ingreso.
+* 📁 **Documentación Requerida:** Certificados, identificaciones y formatos necesarios para el cotejo.
+* 🎓 **Oferta Educativa:** Información detallada sobre las licenciaturas e ingenierías de la universidad.
+* ❓ **Preguntas Frecuentes:** Respuestas automáticas sobre costos, fechas de exámenes y ubicación del campus.
 
-### Frontend
-- HTML5
-- CSS
-- Bootstrap 5
-- Bootstrap Icons
 
-### Backend (Próximamente)
-- Node.js
-- Express
+## 🏗️ Arquitectura del Sistema
 
-### IA
-- Chatbase
+El proyecto implementa una arquitectura desacoplada y estructurada que separa limpiamente las responsabilidades del cliente, el servidor y el motor de IA:
 
----
+proyecto_chatbot-unsis/
+├── public/                 # Contenido estático servido al cliente (Frontend)
+│   ├── index.html          # Estructura principal y 
+diseño responsivo
+│   ├── style.css            # Estilos
+carga de scripts externos         personalizados y 
+│   └── script.js           # Lógica del lado del cliente e inicialización de IA
+├── server/                 # Lógica de la aplicación del lado del servidor (Backend)
+│   └── server.js           # Servidor Express, routing y configuración de estáticos
+├── package.json            # Configuración de dependencias y scripts de Node.js
+└── README.md               # Documentación principal del proyecto
 
-## 📂 Estructura del proyecto
-
-```
-chatbot-unsis/
-│
-├── css/
-│   └── styles.css
-│
-├── img/
-│
-├── js/
-│
-├── index.html
-│
-└── README.md
-```
-
----
-
-## ✨ Funcionalidades actuales
-
-- Página principal responsiva
-- Diseño moderno
-- Colores institucionales de la UNSIS
-- Botones de navegación
-- Sección de bienvenida
-- Preparado para integrar Chatbase
-
----
-
-## 📌 Funcionalidades pendientes
-
-- Integración con Chatbase
-- Flujo conversacional
-- Conexión con Backend
-- Consulta de requisitos
-- Consulta de documentos
-- Solicitud de ficha
-
----
-
-## 📷 Capturas
-
-Agrega aquí capturas de tu sistema.
-
----
-
-## 👨‍💻 Autor
-
-Gudalupe Victoria Lopez Ruiz
-
-Tecnologías Web
-
-Universidad de la Sierra Sur

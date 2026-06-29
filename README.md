@@ -1,5 +1,5 @@
 # 🤖 Proyecto_ChatBoot_Unsis
-**Materia: Tecnologgías Web**
+**Materia: Tecnologías Web**
 
 **Profesor: M.T.I.E. Irving Ulises Hernández Miguel**
 

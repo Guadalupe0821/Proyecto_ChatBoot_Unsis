@@ -1,6 +1,8 @@
 # 🤖 Proyecto_ChatBoot_Unsis
 **Materia: Tecnologgías Web**
+
 **Profesor: M.T.I.E. Irving Ulises Hernández Miguel**
+
 **Ciclo: 2026**
 
 Proyecto de desarrollo Full Stack implementado para la materia de **Tecnologías Web** en la **Universidad de la Sierra Sur**.
@@ -23,7 +25,7 @@ A través de una interfaz interactiva potenciada por Inteligencia Artificial (me
 
 ## 🏗️ Arquitectura del Sistema
 
-El proyecto implementa una arquitectura desacoplada y estructurada que separa limpiamente las responsabilidades del cliente, el servidor y el motor de IA:
+El proyecto implementa una arquitectura desacoplada y estructurada que separa limpiamente las responsabilidades del cliente, el servidor y el asistente de IA:
 
 proyecto_chatbot-unsis/
 ├── public/                 # Contenido estático servido al cliente (Frontend)

@@ -9,7 +9,7 @@ Proyecto de desarrollo Full Stack implementado para la materia de **Tecnologías
 
 
 ## 📺 Video de Demostración y Explicación
-
+https://drive.google.com/drive/home?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
 
 
 ## 📖 Descripción del Proyecto
